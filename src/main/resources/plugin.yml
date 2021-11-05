@@ -1,0 +1,14 @@
+name: FastReload
+version: '${project.version}'
+main: com.crumblyliquid.fastreload.FastReload
+api-version: 1.15
+prefix: FR
+load: STARTUP
+authors: [ CrumblyLiquid ]
+description: Makes plugin development easier by reloading the server with only one command
+website: www.crumblyliquid.com
+commands:
+  fr:
+    aliases: fastreload
+    description: "Allows you to reload with only one command"
+    usage: "/fr"
